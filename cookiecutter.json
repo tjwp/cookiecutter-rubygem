@@ -1,0 +1,7 @@
+{
+  "repo_name": "example_gem",
+  "full_name": "Your Name",
+  "email": "name@example.com",
+  "github_owner" : "example_user",
+  "gem_module" : "{{ cookiecutter.repo_name|split('_')|map('capitalize')|join }}"
+}
