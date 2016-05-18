@@ -1,7 +1,9 @@
 {
   "repo_name": "example_gem",
-  "full_name": "Your Name",
+  "full_name": "Firstname Lastname",
   "email": "name@example.com",
   "github_owner" : "example_user",
-  "gem_module" : "{{ cookiecutter.repo_name|split('_')|map('capitalize')|join }}"
+  "gem_module" : "ExampleGem",
+  "now": "{% now 'local' %}",
+  "year": "{{ cookiecutter.now[:4] }}"
 }
